@@ -11,7 +11,7 @@ const Header = () => {
            <h2 className='font-bold text-3xl md:text-4xl'>skilled</h2>
            <button className='hover:bg-[#666CA3] btngradient text-white rounded-full md:px-8  px-4 md:py-[13px] py-[10px] text-md md:text-lg font-bold'>Get Started</button>
       </div>
-      <div className='flex flex-col mt-28 md:flex-row justify-between items-center'>
+      <div className='flex flex-col mt-6 md:mt-28 md:flex-row justify-between items-center'>
          <div className='flex md:max-w-[350px] lg:max-w-[500px] flex-col gap-4 lg:gap-10 items-start'>
              <h1  className='font-bold text-4xl lg:leading-[70px] text-[#13183F] md:text-4xl lg:text-6xl'>Maximize skill, minimize budget</h1>
              <p className='text-gray-500 lg:leading-[30px] font-[400]'>Our modern courses across range of in-demand skills will give you the knowledge you need to live the life you want.</p>
