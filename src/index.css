@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root{
+
+    --md-width:90%;
+    --sm-width:95%;
+}
+
+.footerwdth{
+    width: var(--md-width);
+    margin: auto;
+}
+.footerbtngradient{
+    background: linear-gradient(to bottom, #8543DE, #ED2BA8);
+}
+.btngradient{
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+.btngradient:hover{
+    background-image: linear-gradient(to top, #2c4c75 0%, #7db5df 100%);
+}
+.herogradient{
+    background: linear-gradient(to bottom,#ffffff,#F1F2FF);
+}
+.cardbggradient{
+    background: linear-gradient(to bottom,#FD6359,#F02CA3);
+}
+
+
+@media screen and (max-width:1156px) {
+      
+}
